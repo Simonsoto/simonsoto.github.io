@@ -48,13 +48,13 @@ a:link {
 a:visited {
 	font-weight: bold;
 	text-decoration: underline;
-	color:#8c02b6 ;
+	color:#5258a8e0 ;
 }
 a:hover {
 	font-weight: normal;
 	text-decoration: none;
-	color: #ffff;
-	background:#28a004;
+	color: rgb(87, 185, 29);
+	background:#ffffff;
 }
 a:active {
 	font-weight: normal;
@@ -65,7 +65,7 @@ a:active {
 li {
 	list-style-position: outside;
 	list-style-image: url(images/bullet.gif);
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 20px;
 }
 
