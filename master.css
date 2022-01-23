@@ -1,13 +1,13 @@
 
 body {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 5px auto;
 	/* border: solid blue 10px; */
 	-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
         		box-sizing: border-box;
 	padding: 5px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(189, 228, 238);
  	
 }
 p {
