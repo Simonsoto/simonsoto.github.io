@@ -2,16 +2,19 @@
 body {
 	max-width: 700px;
 	margin: 5px auto;
-	/* border: solid blue 10px; */
+	border: solid blue 10px;
 	-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
         		box-sizing: border-box;
 	padding: 5px;
 	background-color: rgb(189, 228, 238);
+	left: auto;
+	position: relative;
  	
 }
 p {
 	/* border: 2px solid #ffff; */
+	border: solid rgb(13, 197, 29) 10px;
 	padding: 10px;
 	margin: 10px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,6 +22,7 @@ p {
 	color: black;
 	background-color: rgb(190, 230, 240);
 	text-align: justify;
+	/* position: relative; */
 }
 
 h1 {
@@ -27,14 +31,17 @@ h1 {
 	font-weight: bold;
 	color: black;
 	text-align: center;
+	border: solid rgb(219, 169, 32) 10px;
 }
 h2 {
 	font-family: Verdana, Geneva, Tahoma, serif;
 	font-size: 35px;
 	font-weight: bold;
 	color: rgb(0, 0, 0);
+	border: solid rgb(219, 169, 32) 10px;
 }
 h3 {
+	border: solid rgb(219, 169, 32) 10px;
 	font-family: Verdana, Geneva, Tahoma, serif;
 	font-size: 25px;
 	font-weight: bold;
@@ -63,6 +70,7 @@ a:active {
 	background:#f0e003;
 }
 li {
+	border: solid rgb(136, 32, 49) 10px;
 	list-style-position: outside;
 	list-style-image: url(images/bullet.gif);
 	font-family:Georgia, 'Times New Roman', Times, serif;
@@ -70,28 +78,50 @@ li {
 	background-color: rgb(190, 230, 240);
 }
 
-body {
-	padding-top: 5px;
-}
-
 .centerImage
 {
- text-align:center;
- display:block;
+	border: solid rgb(111, 151, 99) 10px;
+ 	text-align:center;
+ 	display:block;
 }
 
 .main_title
 {
-	width: 500px;
+	/* position: relative; */
+	max-width: 450px;
 	float:left;
+	/* left:200px; */
 }
 
 .self_image
 {
-	width: 300px;
+	/* position: relative; */
+	/* max-width: 250px; */
 	float:left;
+	/* left:200px; */
 }
-      
+
+.main_body
+{
+	max-width: 500px;
+	/* position: relative; */
+	top:auto
+	/* left: 200px; */
+
+}
+
+.left_column
+{
+	position: fixed;
+	max-width: 200px;
+	left: 0;
+	top: auto;
+}
+
+div
+{
+	border: #f0e003;
+}
 /* pygments highlight */
 /* .highlight {
 border: 1px solid #cfcfcf;
